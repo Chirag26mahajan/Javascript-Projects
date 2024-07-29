@@ -18,6 +18,10 @@ buttons.forEach(function (button){
         if(e.target.id=='yellow'){
             body.style.backgroundColor = 'yellow'   //e.target.id
         }
+
+        if(e.target.id=='black'){
+            body.style.backgroundColor = 'black'
+        }
         
     })
 });
