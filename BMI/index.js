@@ -2,7 +2,7 @@ const form = document.querySelector('form')
 form.addEventListener('submit',function(e){
     e.preventDefault()
 
-    const height = parseInt(document.querySelector('#height').value)
+    const height = parseInt(document.querySelector('#height').value)  //parseInt we didi because .value se strng me ati hai and to convert it to integer 
     const weight = parseInt(document.querySelector('#weight').value)
 
     const results = document.querySelector('#results')
